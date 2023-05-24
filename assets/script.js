@@ -11,8 +11,10 @@ function getApi() {
         console.log(data)
 
         for (var i = 0; i < data.length; i++) {
-            var createTableColumn = document.createElement('tc');
+            var listItem= document.createElement('li');
+            listItem.textContent = data[i].html_url;
+            weather.appendChild(listItem);
             
         }
-    }
+    })
 }
