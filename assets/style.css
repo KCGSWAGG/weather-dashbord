@@ -15,6 +15,14 @@
 
 #Forecast {
     text-align: center;
-    
 }
+
+.btn {
+    font-size: larger;
+}
+
+.form-control {
+    width: 25%;
+}
+
 
