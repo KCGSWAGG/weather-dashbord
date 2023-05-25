@@ -19,6 +19,8 @@
 
 .btn {
     font-size: larger;
+    color: white;
+    background-color: blue;
 }
 
 .form-control {

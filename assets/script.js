@@ -1,3 +1,7 @@
+var cityName = document.getElementById("City")
+cityName.addEventListener("click", getApi);
+console.log(cityName)
+
 var weather = document.getElementById('forecast');
 
 function getApi() {
